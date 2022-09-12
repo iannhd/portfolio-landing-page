@@ -2,7 +2,13 @@ import React from 'react'
 
 const PageThree = () => {
   return (
-    <div>PageThree</div>
+    <div className="container w-75">
+        <div className="row">
+            <div className="col">
+                <h2>Porfolio</h2>
+            </div>
+        </div>
+    </div>
   )
 }
 
