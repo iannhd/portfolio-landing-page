@@ -19,6 +19,7 @@ function PageTwo() {
             <li className='font-weight-bold'>ExpressJs</li>
             <li className='font-weight-bold'>ReactJs</li>
             </ul>
+            
             </div>
             <div className="col">
             <ul className='p-3'>
