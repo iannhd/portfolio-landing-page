@@ -1,0 +1,19 @@
+
+
+.desc{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.profile{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
