@@ -6,14 +6,28 @@
 }
 
 .profile{
-    width: 120px;
-    height: 120px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 999px;
 }
 
 .side{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.skills{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+a:hover{
+    text-decoration: none;
+    color: inherit;
 }

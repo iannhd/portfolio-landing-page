@@ -1,4 +1,15 @@
-.dot{
+.dotted{
     font-size: 90px;
+    color: black;
     cursor: pointer;
+}
+
+.page{
+    height: 70vh;
+    
+}
+
+.content{
+    height: 100%;
+    
 }

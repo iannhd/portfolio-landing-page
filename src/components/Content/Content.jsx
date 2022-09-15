@@ -11,13 +11,14 @@ function Content () {
       dots: true,
       fade: true,
       infinite: true,
-      speed: 500,
+      speed: 250,
       slidesToShow: 1,
       slidesToScroll: 1,
+      adaptiveHeight: true
     }
 
     return (
-      <div>
+      <div className="h-100">
         <Slider {...settings}>
           <div>
             <PageOne/>

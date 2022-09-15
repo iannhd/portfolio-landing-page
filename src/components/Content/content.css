@@ -4,6 +4,8 @@
     font-size: 50px;
 } */
 
+
+
 .slick-dots li.slick-active button:before {
     font-size: 24px;
     color: coral;
@@ -16,4 +18,5 @@
 .slick-dots li button:before {
     font-size: 18px;
 }
+
 

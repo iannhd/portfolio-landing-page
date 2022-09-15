@@ -1,0 +1,13 @@
+.leftsidebar{
+    max-width: 100px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftsidebar li {
+    padding: 20px 0 0 20px;
+}

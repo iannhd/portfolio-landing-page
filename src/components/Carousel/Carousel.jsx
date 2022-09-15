@@ -7,7 +7,7 @@ import './Carousel.css'
 
 
 
-function Carousel() {
+function CarouselPage() {
 
     const words = [
         {id: 0, value: <PageOne/>},
@@ -25,16 +25,16 @@ function Carousel() {
     }
 
     return (
-        <div>
-        <div>{wordData}</div>
+        <div className='page'>
+        <div className='content'>{wordData}</div>
         <div className='d-flex align-items-center justify-content-center'>
             {words.map((data, i) => { 
                 return(
-                    <h1 key={data.id}onClick={()=>handleClick(i)}>.</h1>
-                )})}
+                    <h1 className="dotted" key={data.id}onClick={()=>handleClick(i)}>.</h1>
+                    )})}
         </div>
         </div>
   )
 }
 
-export default Carousel
+export default CarouselPage

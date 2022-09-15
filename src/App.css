@@ -4,6 +4,7 @@
 
 .bg{
   height: 100vh;
+  display: flex;
 }
 
 .App-logo {
